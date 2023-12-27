@@ -199,33 +199,28 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
     "@jridgewell/trace-mapping" "^0.3.9"
 
-"@jridgewell/resolve-uri@3.1.0":
-  version "3.1.0"
-  resolved "https://registry.npmjs.org/@jridgewell/resolve-uri/-/resolve-uri-3.1.0.tgz"
-  integrity sha512-F2msla3tad+Mfht5cJq7LSXcdudKTWCVYUgw6pLFOOHSTtZlj6SWNYAp+AhuqLmWdBO2X5hPrLcu8cVP8fy28w==
+"@jridgewell/resolve-uri@^3.1.0":
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/@jridgewell/resolve-uri/-/resolve-uri-3.1.1.tgz#c08679063f279615a3326583ba3a90d1d82cc721"
+  integrity sha512-dSYZh7HhCDtCKm4QakX0xFpsRDqjjtZf/kjI/v3T3Nwt5r8/qz/M19F9ySyOqU94SXBmeG9ttTul+YnR4LOxFA==
 
 "@jridgewell/set-array@^1.0.1":
   version "1.1.2"
   resolved "https://registry.npmjs.org/@jridgewell/set-array/-/set-array-1.1.2.tgz"
   integrity sha512-xnkseuNADM0gt2bs+BvhO0p78Mk762YnZdsuzFV018NoG1Sj1SCQvpSqa7XUaTam5vAGasABV9qXASMKnFMwMw==
 
-"@jridgewell/sourcemap-codec@1.4.14":
-  version "1.4.14"
-  resolved "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.14.tgz"
-  integrity sha512-XPSJHWmi394fuUuzDnGz1wiKqWfo1yXecHQMRf2l6hztTO+nPru658AyDngaBe7isIxEkRsPR3FZh+s7iVa4Uw==
-
-"@jridgewell/sourcemap-codec@^1.4.10", "@jridgewell/sourcemap-codec@^1.4.15":
+"@jridgewell/sourcemap-codec@^1.4.10", "@jridgewell/sourcemap-codec@^1.4.14", "@jridgewell/sourcemap-codec@^1.4.15":
   version "1.4.15"
   resolved "https://registry.npmjs.org/@jridgewell/sourcemap-codec/-/sourcemap-codec-1.4.15.tgz"
   integrity sha512-eF2rxCRulEKXHTRiDrDy6erMYWqNw4LPdQ8UQA4huuxaQsVeRPFl2oM8oDGxMFhJUWZf9McpLtJasDDZb/Bpeg==
 
-"@jridgewell/trace-mapping@^0.3.9":
-  version "0.3.17"
-  resolved "https://registry.npmjs.org/@jridgewell/trace-mapping/-/trace-mapping-0.3.17.tgz"
-  integrity sha512-MCNzAp77qzKca9+W/+I0+sEpaUnZoeasnghNeVc41VZCEKaCH73Vq3BZZ/SzWIgrqE4H4ceI+p+b6C0mHf9T4g==
+"@jridgewell/trace-mapping@^0.3.17", "@jridgewell/trace-mapping@^0.3.9":
+  version "0.3.20"
+  resolved "https://registry.yarnpkg.com/@jridgewell/trace-mapping/-/trace-mapping-0.3.20.tgz#72e45707cf240fa6b081d0366f8265b0cd10197f"
+  integrity sha512-R8LcPeWZol2zR8mmH3JeKQ6QRCFb7XgUhV9ZlGhHLGyg4wpPiPZNQOOWhFZhxKw8u//yTbNGI42Bx/3paXEQ+Q==
   dependencies:
-    "@jridgewell/resolve-uri" "3.1.0"
-    "@jridgewell/sourcemap-codec" "1.4.14"
+    "@jridgewell/resolve-uri" "^3.1.0"
+    "@jridgewell/sourcemap-codec" "^1.4.14"
 
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
@@ -338,17 +333,10 @@
   resolved "https://registry.npmjs.org/@types/node/-/node-18.11.17.tgz"
   integrity sha512-HJSUJmni4BeDHhfzn6nF0sVmd1SMezP7/4F0Lq+aXzmp2xm9O7WXrUtHW/CHlYVtZUbByEvWidHqRtcJXGF2Ng==
 
-"@types/pug@^2.0.4":
+"@types/pug@^2.0.6":
   version "2.0.10"
-  resolved "https://registry.npmjs.org/@types/pug/-/pug-2.0.10.tgz"
+  resolved "https://registry.yarnpkg.com/@types/pug/-/pug-2.0.10.tgz#52f8dbd6113517aef901db20b4f3fca543b88c1f"
   integrity sha512-Sk/uYFOBAB7mb74XcpizmH0KOR2Pv3D2Hmrh1Dmy5BmK3MpdSa5kqZcg6EKBdklU0bFXX9gCfzvpnyUehrPIuA==
-
-"@types/sass@^1.16.0":
-  version "1.45.0"
-  resolved "https://registry.npmjs.org/@types/sass/-/sass-1.45.0.tgz"
-  integrity sha512-jn7qwGFmJHwUSphV8zZneO3GmtlgLsmhs/LQyVvQbIIa+fzGMUiHI4HXJZL3FT8MJmgXWbLGiVVY7ElvHq6vDA==
-  dependencies:
-    sass "*"
 
 "@types/semver@^7.3.12":
   version "7.3.13"
@@ -787,9 +775,9 @@ deepmerge@^4.3.1:
   resolved "https://registry.npmjs.org/deepmerge/-/deepmerge-4.3.1.tgz"
   integrity sha512-3sUqbMEc77XqpdNO7FRyRog+eW3ph+GYCbj+rK+uYyRMuwsVy0rMiVtPn+QJlKFvWP/1PYpapqYn0Me2knFn+A==
 
-detect-indent@^6.0.0:
+detect-indent@^6.1.0:
   version "6.1.0"
-  resolved "https://registry.npmjs.org/detect-indent/-/detect-indent-6.1.0.tgz"
+  resolved "https://registry.yarnpkg.com/detect-indent/-/detect-indent-6.1.0.tgz#592485ebbbf6b3b1ab2be175c8393d04ca0d57e6"
   integrity sha512-reYkTUJAZb9gUuZ2RvVCNhVHdg62RHnJ7WJl8ftMi4diZ6NWlciOzQN88pUhSELEwflJht4oQDv0F0BMlwaYtA==
 
 devalue@^4.3.1:
@@ -1457,14 +1445,7 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-magic-string@^0.25.7:
-  version "0.25.9"
-  resolved "https://registry.npmjs.org/magic-string/-/magic-string-0.25.9.tgz"
-  integrity sha512-RmF0AsMzgt25qzqqLc1+MbHmhdx0ojF2Fvs4XnOqz2ZOBXzzkEwc/dJQZCYHAn7v1jbVOjAZfK8msRn4BxO4VQ==
-  dependencies:
-    sourcemap-codec "^1.4.8"
-
-magic-string@^0.30.0, magic-string@^0.30.1, magic-string@^0.30.3:
+magic-string@^0.30.0, magic-string@^0.30.1, magic-string@^0.30.3, magic-string@^0.30.5:
   version "0.30.5"
   resolved "https://registry.npmjs.org/magic-string/-/magic-string-0.30.5.tgz"
   integrity sha512-7xlpfBaQaP/T6Vh8MO/EqXSW5En6INHEvEXQiuff7Gku0PWjU3uf6w/j9o7O+SpB5fOAkrI5HeoNgwjEO0pFsA==
@@ -1936,7 +1917,7 @@ sander@^0.5.0:
     mkdirp "^0.5.1"
     rimraf "^2.5.2"
 
-sass@*, sass@^1.65.1:
+sass@^1.65.1:
   version "1.65.1"
   resolved "https://registry.npmjs.org/sass/-/sass-1.65.1.tgz"
   integrity sha512-9DINwtHmA41SEd36eVPQ9BJKpn7eKDQmUHmpI0y5Zv2Rcorrh0zS+cFrt050hdNbmmCNKTW3hV5mWfuegNRsEA==
@@ -2014,25 +1995,20 @@ slice-ansi@^7.0.0:
     ansi-styles "^6.2.1"
     is-fullwidth-code-point "^5.0.0"
 
-sorcery@^0.10.0:
-  version "0.10.0"
-  resolved "https://registry.npmjs.org/sorcery/-/sorcery-0.10.0.tgz"
-  integrity sha512-R5ocFmKZQFfSTstfOtHjJuAwbpGyf9qjQa1egyhvXSbM7emjrtLXtGdZsDJDABC85YBfVvrOiGWKSYXPKdvP1g==
+sorcery@^0.11.0:
+  version "0.11.0"
+  resolved "https://registry.yarnpkg.com/sorcery/-/sorcery-0.11.0.tgz#310c80ee993433854bb55bb9aa4003acd147fca8"
+  integrity sha512-J69LQ22xrQB1cIFJhPfgtLuI6BpWRiWu1Y3vSsIwK/eAScqJxd/+CJlUuHQRdX2C9NGFamq+KqNywGgaThwfHw==
   dependencies:
+    "@jridgewell/sourcemap-codec" "^1.4.14"
     buffer-crc32 "^0.2.5"
     minimist "^1.2.0"
     sander "^0.5.0"
-    sourcemap-codec "^1.3.0"
 
 "source-map-js@>=0.6.2 <2.0.0", source-map-js@^1.0.2:
   version "1.0.2"
   resolved "https://registry.npmjs.org/source-map-js/-/source-map-js-1.0.2.tgz"
   integrity sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==
-
-sourcemap-codec@^1.3.0, sourcemap-codec@^1.4.8:
-  version "1.4.8"
-  resolved "https://registry.npmjs.org/sourcemap-codec/-/sourcemap-codec-1.4.8.tgz"
-  integrity sha512-9NykojV5Uih4lgo5So5dtw+f0JgJX30KCNI8gwhz2J9A15wD0Ml6tjHKwf6fTSa6fAdVBdZeNOs9eJ71qCk8vA==
 
 stackback@0.0.2:
   version "0.0.2"
@@ -2121,19 +2097,19 @@ supports-preserve-symlinks-flag@^1.0.0:
   resolved "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   integrity sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==
 
-svelte-check@^2.9.2:
-  version "2.10.2"
-  resolved "https://registry.npmjs.org/svelte-check/-/svelte-check-2.10.2.tgz"
-  integrity sha512-h1Tuiir0m8J5yqN+Vx6qgKKk1L871e6a9o7rMwVWfu8Qs6Wg7x2R+wcxS3SO3VpW5JCxCat90rxPsZMYgz+HaQ==
+svelte-check@^3.6.2:
+  version "3.6.2"
+  resolved "https://registry.yarnpkg.com/svelte-check/-/svelte-check-3.6.2.tgz#a6922160e17e93c6f5fa2b18ec342cc4c70d60ab"
+  integrity sha512-E6iFh4aUCGJLRz6QZXH3gcN/VFfkzwtruWSRmlKrLWQTiO6VzLsivR6q02WYLGNAGecV3EocqZuCDrC2uttZ0g==
   dependencies:
-    "@jridgewell/trace-mapping" "^0.3.9"
+    "@jridgewell/trace-mapping" "^0.3.17"
     chokidar "^3.4.1"
     fast-glob "^3.2.7"
     import-fresh "^3.2.1"
     picocolors "^1.0.0"
     sade "^1.7.4"
-    svelte-preprocess "^4.0.0"
-    typescript "*"
+    svelte-preprocess "^5.1.0"
+    typescript "^5.0.3"
 
 svelte-hmr@^0.15.3:
   version "0.15.3"
@@ -2145,16 +2121,15 @@ svelte-persisted-store@^0.8.0:
   resolved "https://registry.npmjs.org/svelte-persisted-store/-/svelte-persisted-store-0.8.0.tgz"
   integrity sha512-MwVIlJXQFxp+qCbCelsvHYNxxy8AlRJguPj7m+IBB0lpO3jsxFM3wcjO3ytkoZPkUbwUssTLs0XNIFSJL2jXqw==
 
-svelte-preprocess@^4.0.0:
-  version "4.10.7"
-  resolved "https://registry.npmjs.org/svelte-preprocess/-/svelte-preprocess-4.10.7.tgz"
-  integrity sha512-sNPBnqYD6FnmdBrUmBCaqS00RyCsCpj2BG58A1JBswNF7b0OKviwxqVrOL/CKyJrLSClrSeqQv5BXNg2RUbPOw==
+svelte-preprocess@^5.1.0:
+  version "5.1.3"
+  resolved "https://registry.yarnpkg.com/svelte-preprocess/-/svelte-preprocess-5.1.3.tgz#7682239fe53f724c845b53026816fdfe15d028f9"
+  integrity sha512-xxAkmxGHT+J/GourS5mVJeOXZzne1FR5ljeOUAMXUkfEhkLEllRreXpbl3dIYJlcJRfL1LO1uIAPpBpBfiqGPw==
   dependencies:
-    "@types/pug" "^2.0.4"
-    "@types/sass" "^1.16.0"
-    detect-indent "^6.0.0"
-    magic-string "^0.25.7"
-    sorcery "^0.10.0"
+    "@types/pug" "^2.0.6"
+    detect-indent "^6.1.0"
+    magic-string "^0.30.5"
+    sorcery "^0.11.0"
     strip-indent "^3.0.0"
 
 svelte@^3.59.2:
@@ -2293,12 +2268,7 @@ type-fest@^3.0.0:
   resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.13.1.tgz#bb744c1f0678bea7543a2d1ec24e83e68e8c8706"
   integrity sha512-tLq3bSNx+xSpwvAJnzrK0Ep5CLNWjvFTOp71URMaAEWBfRb9nnJiBoUe0tF8bI4ZFO3omgBR6NvnbzVUT3Ly4g==
 
-typescript@*:
-  version "4.9.5"
-  resolved "https://registry.npmjs.org/typescript/-/typescript-4.9.5.tgz"
-  integrity sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==
-
-typescript@^5.3.3:
+typescript@^5.0.3, typescript@^5.3.3:
   version "5.3.3"
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz"
   integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
