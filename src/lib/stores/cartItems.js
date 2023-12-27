@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-nocheck
 import { readonly, writable } from 'svelte/store';
 import { cartOpen } from './cartOpen';
 

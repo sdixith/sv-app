@@ -25,7 +25,7 @@
 		<button
 			on:click={() => {
 				removeFromCart(sku);
-			}}>Delete</button
+			}}><iconify-icon class="text-24 hover:text-red" icon="fa6-regular:trash-can" /></button
 		>
 	</div>
 </div>
