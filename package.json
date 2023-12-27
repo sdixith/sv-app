@@ -81,6 +81,7 @@
 	},
 	"type": "module",
 	"dependencies": {
+		"focus-trap": "^7.5.4",
 		"iconify-icon": "^1.0.8"
 	}
 }

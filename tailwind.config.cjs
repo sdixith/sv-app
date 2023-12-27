@@ -117,28 +117,28 @@ module.exports = {
 			},
 			animation: {
 				'spin-slow': 'spin 1.5s linear infinite',
-				'shimmer': 'shimmer 3s infinite',
+				shimmer: 'shimmer 3s infinite',
 				'pulse-once': 'pulse 0.8s cubic-bezier(0.4, 0, 0.6, 1)',
 				'ping-once': 'ping-once .8s cubic-bezier(0, 0, 0.2, 1)'
 			},
 			keyframes: {
-				'shimmer': {
+				shimmer: {
 					'100%': {
-						'transform': 'translateX(100%)'
+						transform: 'translateX(100%)'
 					}
 				},
 				'ping-once': {
 					'0%': {
-						'transform': 'scale(1)',
-						'opacity': '0.8'
+						transform: 'scale(1)',
+						opacity: '0.8'
 					},
 					'75%': {
-						'transform': 'scale(2)',
-						'opacity': '0'
+						transform: 'scale(2)',
+						opacity: '0'
 					},
 					'100%': {
-						'transform': 'scale(2.5)',
-						'opacity': '0'
+						transform: 'scale(2.5)',
+						opacity: '0'
 					}
 				}
 			}

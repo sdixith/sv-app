@@ -7,7 +7,7 @@
 </script>
 
 <header class="border p-4 flex gap-6 justify-between items-center">
-	<div class="font-bold uppercase text-24 text-blue">{title}</div>
+	<a class="font-bold uppercase text-24 text-blue" href="/">{title}</a>
 	<div class="navigation flex gap-6">
 		<a href="/my-account" class="">My Account</a>
 		<a href="/products" class="">Products</a>
