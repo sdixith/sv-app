@@ -82,6 +82,7 @@
 	"type": "module",
 	"dependencies": {
 		"focus-trap": "^7.5.4",
-		"iconify-icon": "^1.0.8"
+		"iconify-icon": "^1.0.8",
+		"svelte-persisted-store": "^0.8.0"
 	}
 }

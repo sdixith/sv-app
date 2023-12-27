@@ -1,7 +1,8 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
 // @ts-nocheck
-import { readonly, writable } from 'svelte/store';
+import { readonly } from 'svelte/store';
 import { cartOpen } from './cartOpen';
+import { persisted } from 'svelte-persisted-store';
 
 /**
  * {
@@ -9,7 +10,7 @@ import { cartOpen } from './cartOpen';
  * }
  */
 
-const items = writable({});
+const items = persisted('cart.items', {});
 
 export function addToCart(title, variant) {
 	const productData = { title, ...variant };

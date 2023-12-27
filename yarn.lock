@@ -2111,6 +2111,11 @@ svelte-hmr@^0.15.3:
   resolved "https://registry.npmjs.org/svelte-hmr/-/svelte-hmr-0.15.3.tgz"
   integrity sha512-41snaPswvSf8TJUhlkoJBekRrABDXDMdpNpT2tfHIv4JuhgvHqLMhEPGtaQn0BmbNSTkuz2Ed20DF2eHw0SmBQ==
 
+svelte-persisted-store@^0.8.0:
+  version "0.8.0"
+  resolved "https://registry.npmjs.org/svelte-persisted-store/-/svelte-persisted-store-0.8.0.tgz"
+  integrity sha512-MwVIlJXQFxp+qCbCelsvHYNxxy8AlRJguPj7m+IBB0lpO3jsxFM3wcjO3ytkoZPkUbwUssTLs0XNIFSJL2jXqw==
+
 svelte-preprocess@^4.0.0:
   version "4.10.7"
   resolved "https://registry.npmjs.org/svelte-preprocess/-/svelte-preprocess-4.10.7.tgz"
@@ -2123,7 +2128,7 @@ svelte-preprocess@^4.0.0:
     sorcery "^0.10.0"
     strip-indent "^3.0.0"
 
-"svelte@^3.19.0 || ^4.0.0", svelte@^3.2.0, "svelte@^3.2.0 || ^4.0.0-next.0", svelte@^3.23.0, svelte@^3.24.0, "svelte@^3.54.0 || ^4.0.0", "svelte@^3.54.0 || ^4.0.0 || ^5.0.0-next.0", "svelte@^3.54.0 || ^4.0.0-next.0 || ^5.0.0-next.0", svelte@^3.59.2:
+"svelte@^3.19.0 || ^4.0.0", svelte@^3.2.0, "svelte@^3.2.0 || ^4.0.0-next.0", svelte@^3.23.0, svelte@^3.24.0, "svelte@^3.48.0 || >4.0.0", "svelte@^3.54.0 || ^4.0.0", "svelte@^3.54.0 || ^4.0.0 || ^5.0.0-next.0", "svelte@^3.54.0 || ^4.0.0-next.0 || ^5.0.0-next.0", svelte@^3.59.2:
   version "3.59.2"
   resolved "https://registry.npmjs.org/svelte/-/svelte-3.59.2.tgz"
   integrity sha512-vzSyuGr3eEoAtT/A6bmajosJZIUWySzY2CzB3w2pgPvnkUjGqlDnsNnA0PMO+mMAhuyMul6C2uuZzY6ELSkzyA==

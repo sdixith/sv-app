@@ -1,3 +1,5 @@
-import { writable } from 'svelte/store';
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+// @ts-nocheck
+import { persisted } from 'svelte-persisted-store';
 
-export const cartOpen = writable(false);
+export const cartOpen = persisted('cart.open', false, { storage: 'session' });
