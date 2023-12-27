@@ -1,20 +1,13 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment */
-// @ts-nocheck
 import { readonly } from 'svelte/store';
 import { cartOpen } from './cartOpen';
 import { persisted } from 'svelte-persisted-store';
-
-/**
- * {
- *
- * }
- */
+import type { CartState, Variant } from '$lib/types';
 
 const items = persisted('cart.items', {});
 
-export function addToCart(title, variant) {
+export const addToCart = (title: string, variant: Variant): void => {
 	const productData = { title, ...variant };
-	items.update((state) => {
+	items.update((state: CartState) => {
 		const sku = variant.sku;
 		state[sku] = productData;
 
@@ -23,13 +16,13 @@ export function addToCart(title, variant) {
 	});
 
 	cartOpen.set(true);
-}
+};
 
-export function removeFromCart(sku) {
-	items.update((state) => {
+export const removeFromCart = (sku: string) => {
+	items.update((state: CartState) => {
 		delete state[sku];
 		return state;
 	});
-}
+};
 
 export const cartItems = readonly(items);

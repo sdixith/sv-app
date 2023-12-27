@@ -1,6 +1,6 @@
 import { error } from '@sveltejs/kit';
 
-export async function load({ params }) {
+export const load = async ({ params }) => {
 	try {
 		const response = await fetch(`https://jsonplaceholder.typicode.com/posts/${params.id}`);
 		const json = await response.json();
@@ -11,4 +11,4 @@ export async function load({ params }) {
 	} catch (err) {
 		throw error(404);
 	}
-}
+};

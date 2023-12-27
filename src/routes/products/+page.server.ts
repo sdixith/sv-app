@@ -1,4 +1,4 @@
-import { mockProducts } from '$lib/js/mockProducts.js';
+import { mockProducts } from '$lib/data/mockProducts';
 
 export function load() {
 	return {
